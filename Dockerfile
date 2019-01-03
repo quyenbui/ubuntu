@@ -7,3 +7,6 @@ RUN apt-get install wget -y
 
 # Install curl
 RUN apt-get install curl -y
+
+# Install xz-utils
+RUN apt-get install xz-utils -y
